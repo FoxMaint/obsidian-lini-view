@@ -1,0 +1,9 @@
+{
+  "id": "lini-view",
+  "name": "Lini View",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Renders lini code blocks as interactive, pan/zoom SVG diagrams.",
+  "author": "Fox_Maint",
+  "isDesktopOnly": false
+}

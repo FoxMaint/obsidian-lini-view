@@ -1,0 +1,23 @@
+{
+  "name": "lini-view",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "esbuild": "^0.21.5",
+    "obsidian": "latest",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "approve": "^0.0.12",
+    "lini-wasm": "latest",
+    "panzoom": "^9.4.3"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
+}

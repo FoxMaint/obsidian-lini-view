@@ -1,0 +1,128 @@
+.lini-wrapper {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  background: var(--background-primary);
+  position: relative;
+  overflow: hidden;
+  margin: 0.5em 0;
+}
+
+.lini-frame {
+  position: relative;
+}
+
+.lini-frame-fullscreen {
+  height: 100%;
+}
+
+.lini-stage {
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+  touch-action: none;
+  cursor: grab;
+}
+
+.lini-stage svg {
+  width: 100%;
+  height: 100%;
+}
+
+.lini-stage-fullscreen {
+  height: 100%;
+}
+
+.lini-controls {
+  position: absolute;
+  display: flex;
+  gap: 6px;
+  z-index: 100;
+  pointer-events: auto;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+
+.lini-controls:hover {
+  opacity: 1;
+}
+
+.lini-controls-inline {
+  top: 8px;
+  right: 8px;
+}
+
+.lini-controls-fullscreen {
+  bottom: 16px;
+  right: 16px;
+}
+
+.lini-btn {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: var(--interactive-normal);
+  color: var(--text-normal);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  pointer-events: auto;
+  user-select: none;
+}
+
+.lini-btn svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.lini-btn:hover {
+  background: var(--interactive-hover);
+}
+
+.lini-btn:active {
+  background: var(--interactive-accent);
+  transform: translateY(1px);
+}
+
+.lini-loading {
+  padding: 12px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.lini-error {
+  padding: 10px 12px;
+  border-left: 3px solid var(--text-error);
+  background: var(--background-secondary);
+}
+
+.lini-error-title {
+  color: var(--text-error);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.lini-error-body {
+  white-space: pre-wrap;
+  font-size: 12px;
+  color: var(--text-normal);
+  margin: 0;
+}
+
+.lini-fullscreen-modal {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  border-radius: 0;
+}
+
+.lini-fullscreen-modal .modal-content {
+  height: 100%;
+  padding: 0;
+}
+
