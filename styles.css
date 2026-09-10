@@ -76,7 +76,6 @@
 .lini-btn svg {
   width: 16px;
   height: 16px;
-  fill: currentColor;
 }
 
 .lini-btn:hover {
@@ -125,4 +124,3 @@
   height: 100%;
   padding: 0;
 }
-

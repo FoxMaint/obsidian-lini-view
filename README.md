@@ -6,6 +6,10 @@ pan/zoom SVG diagrams inside Obsidian — desktop and mobile.
 Built on the official [`lini-wasm`](https://www.npmjs.com/package/lini-wasm)
 compiler by [monfa-red](https://github.com/monfa-red/lini).
 
+## Preview
+
+![Lini Diagrams demo](docs/preview.gif)
+
 ## Status
 
 This plugin covers the basics: render, pan/zoom (mouse + touch), fullscreen
@@ -23,9 +27,11 @@ Manual install until this lands in Community Plugins:
 
 ## Usage
 
+````
 ```lini
     ...your Lini source...
 ```
+````
 
 ## License
 
