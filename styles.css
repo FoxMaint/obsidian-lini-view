@@ -1,3 +1,7 @@
+.lini {
+  --lini-font-family: "Google Sans", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
 .lini-wrapper {
   border: 1px solid var(--background-modifier-border);
   border-radius: 6px;
